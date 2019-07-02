@@ -46,7 +46,7 @@ sig.pcs <- function(mat, B = 20, threshold = 0.05, log = TRUE, scale = TRUE){
 #' @param log Comppute PCA of logarithm.
 #' @param scale Scale the gene expression.
 #' @param verbose	A logical specifying to print the computational progress.
-#' @param ... Additional arguments passed on to \code{\link[jackstraw]{jackstraw.PCA}}.
+#' @param ... Additional arguments passed on to \code{\link[jackstraw]{jackstraw_pca}}.
 #' @return Statistical results of jackstraw.
 #' @export
 sig.var <- function(mat,
